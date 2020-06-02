@@ -9,7 +9,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Sản phẩm</title>
+    <title>Product Page - Ustora Demo</title>
+    <meta >
     
     <!-- Google Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,300,700,600' rel='stylesheet' type='text/css'>
@@ -39,7 +40,16 @@
     <div class="header-area">
         <div class="container">
             <div class="row">
-                <div class="col-md-8">
+                <div class="col-md-6">
+                    <div class="user-menu">
+                        <ul>
+                            <li><a href="#"  style="text-decoration: none;font-size: 15px;"> Liên hệ: 0353331623</a></li>
+                            <li><a href="#"  style="text-decoration: none;font-size: 15px;"> Email: nguyenminhhao0602@gmail.com</a></li>
+                            
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6">
                     <div class="user-menu">
                         <ul>
                             <li><a href="#"><i class="fa fa-user"></i> Tài khoản</a></li>
@@ -48,15 +58,13 @@
                             <li><a href="DangKy.html"><i class="fa fa-user"></i> Đăng ký</a></li>
                         </ul>
                     </div>
+                    <div  style="margin-top: 10px; margin-bottom: 10px;margin-left: 200px;">
+                            <form action="">
+                                <input type="text" placeholder="Tìm kiếm sản phẩm...">
+                                <input type="submit" value="Search">
+                            </form>
+                    </div>
                 </div>
-                
-                <div class="single-sidebar; col-md-4" style="margin-top: 10px; margin-bottom: 10px;">
-                    <form action="">
-                        <input type="text" placeholder="Tìm kiếm sản phẩm...">
-                        <input type="submit" value="Search">
-                    </form>
-                </div>
-                
             </div>
         </div>
     </div> <!-- End header area -->
@@ -72,7 +80,7 @@
                 
                 <div class="col-sm-6">
                     <div class="shopping-item">
-                        <a href="cart.html">Cart - <span class="cart-amunt"></span> <i class="fa fa-shopping-cart"></i> <span class="product-count"></span></a>
+                        <a href="cart.html">Giỏ hàng - <span class="cart-amunt">$100</span> <i class="fa fa-shopping-cart"></i> <span class="product-count">5</span></a>
                     </div>
                 </div>
             </div>
@@ -92,11 +100,11 @@
                 </div> 
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li><a href="index.html">Trang chủ</a></li>
-                        <li><a href="shop.html">Shop</a></li>
-                        <li class="active"><a href="single-product.html">Sản phẩm</a></li>
-                        <li><a href="cart.html">Giỏ hàng</a></li>
-                        <li><a href="checkout.html">Thanh toán</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="shop.html">Shop page</a></li>
+                        <li class="active"><a href="single-product.html">Single product</a></li>
+                        <li><a href="cart.html">Cart</a></li>
+                        <li><a href="checkout.html">Checkout</a></li>
                         
                     </ul>
                 </div>  
@@ -197,11 +205,11 @@
                                         <ins>7.000.000 <sup>đ</sup></ins> <del>10.000.000 <sup>đ</sup></del>
                                     </div>    
                                     
-                                    <form action="" class="cart">
+                                    <form action="" class="cart" enctype="multipart/form-data">
                                         <div class="quantity">
-                                            <input type="number" size="4" class="input-text qty text" title="Qty" value="1" name="quantity" min="1" step="1">
+                                            <input type="number" size="5" class="input-text qty text" title="Qty" value="1" name="quantity" min="1" step="1">
                                         </div>
-                                        <button class="add_to_cart_button" type="submit">Add to cart</button>
+                                        <button class="add_to_cart_button; " type="submit">Thêm vào giỏ hàng</button>
                                     </form>   
                                     
                                      
@@ -269,8 +277,8 @@
                             <div class="product-f-image">
                                 <img src="img/product-1.jpg" alt="">
                                 <div class="product-hover">
-                                    <a href="" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
-                                    <a href="" class="view-details-link"><i class="fa fa-link"></i> See details</a>
+                                    <a href="" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Thêm vào giỏ hàng</a>
+                                    <a href="" class="view-details-link"><i class="fa fa-link"></i> Chi tiết</a>
                                 </div>
                             </div>
 
@@ -283,8 +291,8 @@
                             <div class="product-f-image">
                                 <img src="img/product-2.jpg" alt="">
                                 <div class="product-hover">
-                                    <a href="" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
-                                    <a href="" class="view-details-link"><i class="fa fa-link"></i> See details</a>
+                                    <a href="" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Thêm vào giỏ hàng</a>
+                                    <a href="" class="view-details-link"><i class="fa fa-link"></i> Chi tiết</a>
                                 </div>
                             </div>
 
@@ -297,8 +305,8 @@
                             <div class="product-f-image">
                                 <img src="img/product-3.jpg" alt="">
                                 <div class="product-hover">
-                                    <a href="" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
-                                    <a href="" class="view-details-link"><i class="fa fa-link"></i> See details</a>
+                                    <a href="" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Thêm vào giỏ hàng</a>
+                                    <a href="" class="view-details-link"><i class="fa fa-link"></i> Chi tiết</a>
                                 </div>
                             </div>
 
@@ -312,8 +320,8 @@
                             <div class="product-f-image">
                                 <img src="img/product-4.jpg" alt="">
                                 <div class="product-hover">
-                                    <a href="" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
-                                    <a href="" class="view-details-link"><i class="fa fa-link"></i> See details</a>
+                                    <a href="" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Thêm vào giỏ hàng</a>
+                                    <a href="" class="view-details-link"><i class="fa fa-link"></i> Chi tiết</a>
                                 </div>
                             </div>
 
@@ -327,8 +335,8 @@
                             <div class="product-f-image">
                                 <img src="img/product-5.jpg" alt="">
                                 <div class="product-hover">
-                                    <a href="" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
-                                    <a href="" class="view-details-link"><i class="fa fa-link"></i> See details</a>
+                                    <a href="" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Thêm vào giỏ hàng</a>
+                                    <a href="" class="view-details-link"><i class="fa fa-link"></i> Chi tiết</a>
                                 </div>
                             </div>
 
@@ -342,8 +350,8 @@
                             <div class="product-f-image">
                                 <img src="img/product-6.jpg" alt="">
                                 <div class="product-hover">
-                                    <a href="" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
-                                    <a href="" class="view-details-link"><i class="fa fa-link"></i> See details</a>
+                                    <a href="" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Thêm vào giỏ hàng</a>
+                                    <a href="" class="view-details-link"><i class="fa fa-link"></i> Chi tiết</a>
                                 </div>
                             </div>
 
@@ -366,14 +374,8 @@
             <div class="row">
                 <div class="col-md-3 col-sm-6">
                     <div class="footer-about-us">
-                        <h2>u<span>Stora</span></h2>
+                        <h2><span>Phone shop</span></h2>
                         <p>Hai đứa trẻ nói về hai chị em Liên và An. Chị độ mười hai, mười ba; em lên tám, lên chín. Gia đình trước ở Hà Nội, sau vì sa sút nên phải về quê ở phố huyện này. Mẹ bận làm hàng xay hàng xáo, giao cho hai chị em trông coi quầy hàng xén nhỏ xíu ở gần ga. Mẹ dặn phải thức cho đến khi xe lửa đi qua, may ra còn có người ở tàu xuống ghé mua hàng. Hai chị em ngồi trên chõng trước hiên chờ. Em buồn ngủ, ngả vào người chị nhưng vẫn nhắc hễ tàu đến thì đánh thức dậy.</p>
-                        <div class="footer-social">
-                            <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
-                            <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
-                            <a href="#" target="_blank"><i class="fa fa-youtube"></i></a>
-                            <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
-                        </div>
                     </div>
                 </div>
                 
@@ -384,25 +386,14 @@
     <div class="footer-bottom-area">
         <div class="container">
             <div class="row">
-                <div class="col-md-8">
-                    <div class="copyright">
+               
+                    <div class="copyright" style="text-align: center;">
                         <p>&copy; 2020 ddnCommerce. Bản quyền thuộc DDN. <a href="#" target="_blank">khongcogi.com</a></p>
                     </div>
-                </div>
                 
-                <div class="col-md-4">
-                    <div class="footer-card-icon">
-                        <i class="fa fa-cc-discover"></i>
-                        <i class="fa fa-cc-mastercard"></i>
-                        <i class="fa fa-cc-paypal"></i>
-                        <i class="fa fa-cc-visa"></i>
-                    </div>
-                </div>
             </div>
         </div>
     </div> <!-- End footer bottom area -->
-   
-    <!-- Latest jQuery form server -->
     <script src="https://code.jquery.com/jquery.min.js"></script>
     
     <!-- Bootstrap JS form CDN -->
